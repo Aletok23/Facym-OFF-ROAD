@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #1E1E1E;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #1E1E1E;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    border: black solid 2px;
+}
+
+header img {
+    width: 235px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+ul li a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+li {
+    padding: 5px 15px;
+}
+
+.datosfacym {
+    color: aliceblue;
+    background-color: #2889AA;
+    display: flex;
+    justify-content: space-evenly;
+    border: black solid 1px;
+}
+
+.carrousel {
+    width: 100%;
+    height: 750px;
+    background-image: url(./assets/kyle\ grozelle\ mediano.jpg);
+    background-size: 100% 100%;
+}
+
+.carrousel img {
+    width: 100%;
+    height: 750px;
+    border: black solid 5px;
+}
+
+.carrousel p {
+    font-size: 38px;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+    text-align: center;
+    color: aliceblue;
+    text-overflow: clip;
+    text-decoration: solid;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+
+.travesia {
+    width: 100%;
+    height: 750px;
+    background: url(./assets/jeff-james\ mediana.jpg);
+}
+
+.travesia img {
+    width: 100%;
+    height: 100%;
+    border: black solid 5px;
+}
+
+.travesia h3 {
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    bottom: -40%;
+    left: 25%;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.travesia p {
+    font-size: 30px;
+    position: absolute;
+    bottom: -130%;
+    left: 3%;
+    color: aliceblue;
+}
+
+footer{
+    width: 100%;
+    background-color: #1E1E1E;
+    color: aliceblue;
+    height: 200px;
+    border-top: #74888f solid 4px;
+
+}
+
+ 
