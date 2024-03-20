@@ -63,9 +63,8 @@ li {
 
 .carrousel p {
     font-size: 38px;
-    position: absolute;
-    top: 20%;
-    right: 45%;
+    position: relative;
+    bottom: 98%;
     text-align: center;
     color: aliceblue;
     text-overflow: clip;
@@ -90,20 +89,20 @@ nav ul li a:hover {
 
 .travesia h3 {
     font-size: 45px;
-    position: absolute;
-    text-align: center;
-    bottom: -40%;
-    left: 25%;
+    position: relative;
+    bottom: 95%;
+    left: 5%;
     color: aliceblue;
     text-decoration: underline;
 }
 
 .travesia p {
     font-size: 30px;
-    position: absolute;
-    bottom: -130%;
+    position: relative;
+    bottom: 35%;
     left: 3%;
     color: aliceblue;
+
 }
 
 footer{
