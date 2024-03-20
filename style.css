@@ -4,10 +4,10 @@
 }
 
 body {
-    background-color: #1E1E1E;
+    
     font-family: "Montserrat", sans-serif;
 }
-
+main{background-color: #1E1E1E;}
 header {
     background-color: #1E1E1E;
     position: sticky;
@@ -58,7 +58,7 @@ li {
 .carrousel img {
     width: 100%;
     height: 750px;
-    border: black solid 5px;
+    border: grey solid 3px;
 }
 
 .carrousel p {
@@ -84,7 +84,7 @@ nav ul li a:hover {
 .travesia img {
     width: 100%;
     height: 100%;
-    border: black solid 5px;
+    border: grey solid 3px;
 }
 
 .travesia h3 {
@@ -109,9 +109,11 @@ footer{
     width: 100%;
     background-color: #1E1E1E;
     color: aliceblue;
-    height: 200px;
-    border-top: #74888f solid 4px;
-
+    border: solid grey 3px;
+    display: flex;
+}
+.logosfooter img{width: 150px;height: 150px;
+padding: 15px; 
 }
 
  
