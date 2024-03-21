@@ -46,6 +46,7 @@ li {
     display: flex;
     justify-content: space-evenly;
     border: black solid 1px;
+    height: 25px;
 }
 
 .carrousel {
@@ -63,12 +64,8 @@ li {
 
 .carrousel p {
     font-size: 38px;
-    position: relative;
-    bottom: 98%;
     text-align: center;
     color: aliceblue;
-    text-overflow: clip;
-    text-decoration: solid;
 }
 
 nav ul li a:hover {
@@ -78,31 +75,27 @@ nav ul li a:hover {
 .travesia {
     width: 100%;
     height: 750px;
-    background: url(./assets/jeff-james\ mediana.jpg);
+    background-image: url(./assets/jeff-james\ mediana.jpg);
+    background-size: 100% 100%;
 }
 
 .travesia img {
     width: 100%;
-    height: 100%;
-    border: grey solid 3px;
+    height: 750px;
 }
 
 .travesia h3 {
-    font-size: 45px;
-    position: relative;
-    bottom: 95%;
-    left: 5%;
-    color: aliceblue;
+    font-size: 40px;
+    color: rgb(236, 16, 16);
     text-decoration: underline;
+    text-align: center;
+    
 }
 
-.travesia p {
+.travesia h4 {
     font-size: 30px;
-    position: relative;
-    bottom: 35%;
-    left: 3%;
     color: aliceblue;
-
+    width: 100%;
 }
 
 footer{
