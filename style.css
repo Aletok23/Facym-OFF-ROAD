@@ -4,10 +4,14 @@
 }
 
 body {
-    
+
     font-family: "Montserrat", sans-serif;
 }
-main{background-color: #1E1E1E;}
+
+main {
+    background-color: #1E1E1E;
+}
+
 header {
     background-color: #1E1E1E;
     position: sticky;
@@ -89,7 +93,7 @@ nav ul li a:hover {
     color: rgb(236, 16, 16);
     text-decoration: underline;
     text-align: center;
-    
+
 }
 
 .travesia h4 {
@@ -98,15 +102,70 @@ nav ul li a:hover {
     width: 100%;
 }
 
-footer{
+footer {
     width: 100%;
     background-color: #1E1E1E;
     color: aliceblue;
     border: solid grey 3px;
     display: flex;
-}
-.logosfooter img{width: 150px;height: 150px;
-padding: 15px; 
+    justify-content: space-between;
 }
 
- 
+.logosfooter img {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+
+.datos ul li::marker {
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    color: #1E1E1E;
+    border: black solid 1px;
+}
+
+.cadenabarro {
+    display: flex;
+    color: aliceblue;
+    height: 450px;
+    border-top: #2889AA solid 3px;
+}
+
+.cadenabarronieve {
+    width: 100%;
+    padding-left: 15px;
+}
+
+h2 {
+    text-decoration: underline;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.hielo {
+    display: flex;
+    color: aliceblue;
+    height: 450px;
+    border-bottom: #2889AA solid 3px;
+    border-top: #2889AA solid 3px;
+}
+
+.hielopua {
+    width: 100%;
+    padding-left: 15px;
+}
+
+h2 {
+    text-decoration: underline;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.hielo img {
+    width: 650px;
+}
