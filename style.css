@@ -177,22 +177,131 @@ h2 {
 .datos ur li::marker {
     color: #2889AA;
 }
-.navegaciondeproductos{
+
+.navegaciondeproductos {
     width: 100%;
     height: 150px;
-    background-color;
-   
 }
-.navegaciondeproductos ul{
+
+.navegaciondeproductos ul {
     width: 100%;
     height: 100px;
     background-color: white;
     flex-wrap: wrap;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.navegaciondeproductos ul li{
+
+.navegaciondeproductos ul li {
     padding: 1%;
 
 }
+
+.navi {
+    display: flex;
+    background-color: #2889AA;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.navi ul li a {
+    color: #1E1E1E;
+    font-size: 15px;
+}
+
+.navi li a {
+    color: #1E1E1E;
+    font-size: 20px;
+}
+
+.galeria-container {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: .9375rem;
+    margin-top: 25px;
+}
+
+.galeria-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.travesias {
+    display: flex;
+    height: 250px;
+    padding: 15px;
+    border-top: #ffffff solid 3px;
+    border-bottom: #ffffff solid 3px;
+}
+
+.travesias img {
+    width: 370px;
+}
+
+.destinos {
+    color: aliceblue;
+    position: relative;
+    top: 25px;
+    right: 60px;
+    width: 350px;
+    height: 200px;
+}
+
+.h5 {
+    position: relative;
+    bottom: 10px;
+    left: 380px;
+    font-size: 35px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+h3{text-align: center;
+    padding-top: 15px;
+text-decoration: underline double;
+}
+.contacto-check{
+width: 20%;
+height: 400px;
+background-color: white;
+font-size: 20px;
+padding-left: 15px;
+border-right: #2889AA solid 7px;
+}
+.registro{padding: 15px;
+}
+.registro2{
+    padding: 15px;
+}
+.registro3{
+    padding: 15px;
+display: flex;
+}
+button{font-size: 25px;
+background-color: #1E1E1E;
+color: #ffffff;
+margin-left: 70px;
+height: 45px;
+padding: 5px;
+position: relative; 
+top: 50px
+}
+.mapa{
+    position: relative;
+left: 520px;
+bottom: 251px;
+height: 150px;
+}
+.redes{
+  background-color: #ffffff;
+    position: relative;
+    left: 1170px;
+    bottom: 300px;
+    height: 80px;
+    padding-top: 15px;
+    border-left: #2889AA solid 5px;
+}
+.redes img{width: 55px;
+margin-left: 25px;}
