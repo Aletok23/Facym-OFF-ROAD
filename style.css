@@ -59,26 +59,22 @@ nav ul li a:hover {
 }
 
 /* HEADER FINAL*/
-/* FUTURO CARROUSEL INICIO */
-.carrousel {
+/*CAROUSEL INICIO */
+.carousel img {
     width: 100%;
-    height: 750px;
-    background-image: url(./assets/kyle\ grozelle\ mediano.jpg);
-    background-size: 100% 100%;
-}
-
-.carrousel img {
-    width: 100%;
-    height: 750px;
+    height: 650px;
     border: grey solid 3px;
 }
 
-.carrousel p {
-    font-size: 38px;
+.carousel-caption{font-size: 45px;
+    justify-content: center;
     text-align: center;
-    color: aliceblue;
+    background-color: #1E1E1E;
 }
-
+.buttons{
+position: relative;
+bottom: 350px;
+}
 /* FUTURO CARROUSEL FINAL */
 /* BANNER RESERVA TU TRAVESIA*/
 .travesia {
@@ -346,12 +342,14 @@ button {
 }
 
 /* FINAL DE PAGINA DE CONTACTO*/
-@media(max-width:651px) {
+@media(max-width:768px) {
     header {
-        display: block;
         align-items: center;
-        font-size: 6px;
+        font-size: 15px;
         text-align: center;
+    }
+    header img{
+        width: 150px;
     }
 
     header nav ul {
@@ -362,73 +360,23 @@ button {
     }
 
     .datosfacym {
-        font-size: 7px;
+        font-size: 12px;
+        padding: 1px;
     }
+.carousel-caption{
+    font-size: 15px;
+    width: 180px;
 
-    .carrousel {
-        height: 300px;
-
-        p {
-            font-size: 15px;
-        }
-    }
-
-    .travesia {
-        height: 300px;
-
-        h3 {
-            font-size: 15px;
-        }
-
-        h4 {
-            font-size: 15px;
-        }
-    }
-
-    footer {
-        font-size: 10px;
-    }
-
-    .logosfooter img {
-        width: 75px;
-        height: 75px;
-    }
-
-    h1 {
-        font-size: 10px;
-    }
-
-    .cadenabarro {
-        width: 100%;
-        height: 200px;
-        display: flex;
-    }
-
-    .cadenabarro img {
-        width: 150px;
-        height: 200px;
-    }
-
-    .cadenabarronieve {
-        font-size: 6px;
-        height: 150px
-    }
-
-    input {
-        width: 75px;
-    }
-
-    .hielo {
-        height: 200px;
-    }
-
-    .hielo img {
-        width: 150px;
-        height: 200px;
-    }
-
-    .hielopua {
-        font-size: 6px;
-    }
-
+h5{
+    font-size: 15px;
 }
+}
+
+
+
+
+
+
+
+    }
+    

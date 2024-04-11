@@ -70,12 +70,9 @@ nav ul li a:hover {
   border: grey solid 3px;
 }
 
-.carrousel p {
-  font-size: 38px;
-  text-align: center;
-  color: aliceblue;
+.carousel-caption {
+  font-size: 45px;
 }
-
 /* FUTURO CARROUSEL FINAL */
 /* BANNER RESERVA TU TRAVESIA*/
 .travesia {
