@@ -56,51 +56,34 @@ nav ul li a:hover {
 }
 
 /* HEADER FINAL*/
-/* FUTURO CARROUSEL INICIO */
-.carrousel {
-  width: 100%;
-  height: 750px;
-  background-image: url(./assets/kyle\ grozelle\ mediano.jpg);
-  background-size: 100% 100%;
+
+/*CAROUSEL INICIO */
+.carousel img {
+  height: 700px;
 }
 
-.carrousel img {
-  width: 100%;
-  height: 750px;
-  border: grey solid 3px;
-}
-
-.carousel-caption {
-  font-size: 45px;
-}
-/* FUTURO CARROUSEL FINAL */
-/* BANNER RESERVA TU TRAVESIA*/
-.travesia {
-  width: 100%;
-  height: 750px;
-  background-image: url(./assets/jeff-james\ mediana.jpg);
-  background-size: 100% 100%;
-}
-
-.travesia img {
-  width: 100%;
-  height: 750px;
-}
-
-.travesia h3 {
-  font-size: 40px;
-  color: rgb(236, 16, 16);
-  text-decoration: underline;
+.carousel {
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.travesia h4 {
-  font-size: 30px;
-  color: aliceblue;
-  width: 100%;
+.buttons {
+  position: relative;
+  top: 250px;
 }
 
-/* BANNER RESERVA TU TRAVESIA FINAL */
+.carousel-caption {
+  h5 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+}
+
+/*CAROUSEL FINAL */
 /* FINAL DE INDEX */
 /* FOOTER INICIO */
 footer {
@@ -132,61 +115,40 @@ footer {
 
 /* FOOTER FINAL */
 /* INDICE  */
-h1 {
-  text-align: center;
+.indice {
+  width: 100%;
   background-color: #1E1E1E;
-  color: white;
-  border: black solid 1px;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: #ffffff solid 3px;
 }
 
 /* INDICE FINAL */
-/* PAGINA: CADENAS (CADENA P/ BARRO/NIEVE)*/
-.cadenabarro {
+/* PAGINA: CADENAS*/
+.cards {
   display: flex;
-  color: aliceblue;
-  height: 450px;
-  border-top: #2889AA solid 3px;
-}
-
-.cadenabarronieve {
+  justify-content: space-around;
+  height: 1000px;
   width: 100%;
-  padding-left: 15px;
+  align-items: center;
 }
 
-h2 {
-  text-decoration: underline;
-  padding-bottom: 15px;
-  padding-top: 15px;
+.cards img {
+  width: 21.9rem;
+  height: 21.9rem;
 }
 
-/* FIN DE CADENA BARRO/NIEVE */
-/* CADENA P/HIELO CON PUAS */
-.hielo {
-  display: flex;
-  color: aliceblue;
-  height: 450px;
-  border-bottom: #2889AA solid 3px;
-  border-top: #2889AA solid 3px;
-}
-
-.hielopua {
-  width: 100%;
-  padding-left: 15px;
-}
-
-h2 {
-  text-decoration: underline;
-  padding-bottom: 15px;
-  padding-top: 15px;
+.card {
+  justify-content: center;
   text-align: center;
 }
 
-.hielo img {
-  width: 650px;
+.card-body a {
+  text-decoration: none;
 }
 
-/* FIN DE CADENA P/HIELO CON PUAS */
 /* FIN DE PAGINA CADENAS */
+
 /* INICIO DE PAGINA PRODUCTOS */
 /* BARRA DE NAVEGACION DE PRODUCTOS INICIO */
 .navegaciondeproductos {
@@ -338,73 +300,62 @@ button {
 }
 
 /* FINAL DE PAGINA DE CONTACTO*/
-@media (max-width: 651px) {
-  header {
-    display: block;
-    align-items: center;
-    font-size: 6px;
-    text-align: center;
+@media(max-width:768px) {
+  header img {
+    width: 200px
   }
-  header nav ul {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .datosfacym {
-    font-size: 7px;
-  }
-  .carrousel {
-    height: 300px;
-  }
-  .carrousel p {
-    font-size: 15px;
-  }
-  .travesia {
-    height: 300px;
-  }
-  .travesia h3 {
-    font-size: 15px;
-  }
-  .travesia h4 {
-    font-size: 15px;
-  }
-  footer {
-    font-size: 10px;
-  }
-  .logosfooter img {
-    width: 75px;
-    height: 75px;
-  }
-  h1 {
-    font-size: 10px;
-  }
-  .cadenabarro {
+
+  .carousel img {
+    height: 500px;
     width: 100%;
-    height: 200px;
-    display: flex;
   }
-  .cadenabarro img {
-    width: 150px;
-    height: 200px;
+
+  .carousel-caption {
+    h5 {
+      font-size: 17px;
+      background-color: #1E1E1E;
+    }
+
+    p {
+      font-size: 15px;
+    }
   }
-  .cadenabarronieve {
-    font-size: 6px;
-    height: 150px;
+
+  .datosfacym {
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
   }
-  input {
-    width: 75px;
+
+  nav {
+    font-size: 15px;
   }
-  .hielo {
-    height: 200px;
+
+  .cards {
+    height: 850px;
+    width: 100%;
   }
-  .hielo img {
-    width: 150px;
-    height: 200px;
+
+  .cards img {
+    width: 18rem;
+    height: 18rem;
   }
-  .hielopua {
-    font-size: 6px;
+
+  .card {
+    width: 18rem;
+    font-size: 10px;
   }
+
+  .indice h1 {
+    font-size: 18px;
+    padding-top: 8px;
+  }
+}
+@media(max-width:425px) {
+  header img {
+    width: 15px;
+  }
+
 }
 
 /*# sourceMappingURL=style.css.map */
