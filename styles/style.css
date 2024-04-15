@@ -56,34 +56,54 @@ nav ul li a:hover {
 }
 
 /* HEADER FINAL*/
-
-/*CAROUSEL INICIO */
-.carousel img {
-  height: 700px;
+/* FUTURO CARROUSEL INICIO */
+.carrousel {
+  width: 100%;
+  height: 750px;
+  background-image: url(./assets/kyle\ grozelle\ mediano.jpg);
+  background-size: 100% 100%;
 }
 
-.carousel {
-  justify-content: center;
-  align-items: center;
+.carrousel img {
+  width: 100%;
+  height: 750px;
+  border: grey solid 3px;
+}
+
+.carrousel p {
+  font-size: 38px;
+  text-align: center;
+  color: aliceblue;
+}
+
+/* FUTURO CARROUSEL FINAL */
+/* BANNER RESERVA TU TRAVESIA*/
+.travesia {
+  width: 100%;
+  height: 750px;
+  background-image: url(./assets/jeff-james\ mediana.jpg);
+  background-size: 100% 100%;
+}
+
+.travesia img {
+  width: 100%;
+  height: 750px;
+}
+
+.travesia h3 {
+  font-size: 40px;
+  color: rgb(236, 16, 16);
+  text-decoration: underline;
   text-align: center;
 }
 
-.buttons {
-  position: relative;
-  top: 250px;
+.travesia h4 {
+  font-size: 30px;
+  color: aliceblue;
+  width: 100%;
 }
 
-.carousel-caption {
-  h5 {
-    font-size: 35px;
-  }
-
-  p {
-    font-size: 25px;
-  }
-}
-
-/*CAROUSEL FINAL */
+/* BANNER RESERVA TU TRAVESIA FINAL */
 /* FINAL DE INDEX */
 /* FOOTER INICIO */
 footer {
@@ -115,62 +135,99 @@ footer {
 
 /* FOOTER FINAL */
 /* INDICE  */
-.indice {
-  width: 100%;
-  background-color: #1E1E1E;
-  color: #ffffff;
+h1 {
   text-align: center;
-  border-bottom: #ffffff solid 3px;
+  background-color: #1E1E1E;
+  color: white;
+  border: black solid 1px;
 }
 
 /* INDICE FINAL */
-/* PAGINA: CADENAS*/
-.cards {
+/* PAGINA: CADENAS (CADENA P/ BARRO/NIEVE)*/
+.cadenabarro {
   display: flex;
-  justify-content: space-around;
-  height: 1000px;
+  color: aliceblue;
+  height: 450px;
+  border-top: #2889AA solid 3px;
+}
+
+.cadenabarronieve {
   width: 100%;
-  align-items: center;
+  padding-left: 15px;
 }
 
-.cards img {
-  width: 21.9rem;
-  height: 21.9rem;
+h2 {
+  text-decoration: underline;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
-.card {
-  justify-content: center;
+/* FIN DE CADENA BARRO/NIEVE */
+/* CADENA P/HIELO CON PUAS */
+.hielo {
+  display: flex;
+  color: aliceblue;
+  height: 450px;
+  border-bottom: #2889AA solid 3px;
+  border-top: #2889AA solid 3px;
+}
+
+.hielopua {
+  width: 100%;
+  padding-left: 15px;
+}
+
+h2 {
+  text-decoration: underline;
+  padding-bottom: 15px;
+  padding-top: 15px;
   text-align: center;
-  width: 22rem;
 }
 
-.card-body a {
-  text-decoration: none;
+.hielo img {
+  width: 650px;
 }
 
+/* FIN DE CADENA P/HIELO CON PUAS */
 /* FIN DE PAGINA CADENAS */
-
 /* INICIO DE PAGINA PRODUCTOS */
 /* BARRA DE NAVEGACION DE PRODUCTOS INICIO */
-.navbar-productos ul{
-  justify-content: center;
-  text-align: center;
+.navegaciondeproductos {
+  width: 100%;
+  height: 150px;
+}
+
+.navegaciondeproductos ul {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  flex-wrap: wrap;
+  display: flex;
   align-items: center;
- text-decoration: none;
- font-size: 19px;
+  justify-content: space-evenly;
 }
-.dropdown-item ul li a{
-  color: #ffffff;
-  text-decoration: none;
+
+.navegaciondeproductos ul li {
+  padding: 1%;
 }
-.dropdown-menu ul li a{
-  color: #ffffff;
-  text-decoration: none;
+
+.navi {
+  display: flex;
+  background-color: #2889AA;
+  justify-content: center;
+  background-color: aliceblue;
 }
-.nav nav-tabs ul {
-  color: #ffffff;
-  text-decoration: none;
+
+.navi ul li a {
+  color: #1E1E1E;
+  font-size: 15px;
 }
+
+.navi li a {
+  color: #1E1E1E;
+  font-size: 20px;
+}
+
 /* FIN DE BARRA DE NAVEGACION DE PRODUCTOS */
 /* INICIO GALERIA DE PRODUCTOS */
 .galeria-container {
@@ -284,128 +341,73 @@ button {
 }
 
 /* FINAL DE PAGINA DE CONTACTO*/
-@media(max-width:769px) {
-  header img {
-    width: 200px
-  }
-
-  .carousel img {
-    height: 500px;
-    width: 100%;
-  }
-
-  .carousel-caption {
-    h5 {
-      font-size: 17px;
-      background-color: #1E1E1E;
-    }
-
-    p {
-      font-size: 15px;
-    }
-  }
-
-  .datosfacym {
-    height: 20px;
-    font-size: 10px;
+@media (max-width: 651px) {
+  header {
+    display: block;
+    align-items: center;
+    font-size: 6px;
     text-align: center;
   }
-
-  nav {
+  header nav ul {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .datosfacym {
+    font-size: 7px;
+  }
+  .carrousel {
+    height: 300px;
+  }
+  .carrousel p {
     font-size: 15px;
   }
-
-  .cards {
-    height: 850px;
+  .travesia {
+    height: 300px;
+  }
+  .travesia h3 {
+    font-size: 15px;
+  }
+  .travesia h4 {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  .logosfooter img {
+    width: 75px;
+    height: 75px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+  .cadenabarro {
     width: 100%;
+    height: 200px;
+    display: flex;
   }
-
-  .cards img {
-    width: 18rem;
-    height: 18rem;
+  .cadenabarro img {
+    width: 150px;
+    height: 200px;
   }
-
-  .card {
-    width: 18rem;
-    font-size: 10px;
+  .cadenabarronieve {
+    font-size: 6px;
+    height: 150px;
   }
-
-  .indice h1 {
-    font-size: 18px;
-    padding-top: 8px;
+  input {
+    width: 75px;
   }
-
-.galeria-container img{
-  width: 200px;
-  height: 200px;
-  border-right: #2889AA solid 5px;
-}
-.galeria-container {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  row-gap: 10px;
-  column-gap: 10px;
-  margin-top: 10px;
-}
-.navbar-productos ul{
-  font-size: 17px;
-}
-}
-@media(max-width:426px) {
-  header img {
-    width: 100px;
-    height: 50px;
+  .hielo {
+    height: 200px;
   }
-  header{
-display: block;
-justify-content: center;
-align-items: center;
-text-align: center;
+  .hielo img {
+    width: 150px;
+    height: 200px;
   }
-  header nav{
-    font-size: 10px;
-    padding: 5px;
+  .hielopua {
+    font-size: 6px;
   }
-.datosfacym{
-text-align: center;
-  font-size: 8px;
-  padding: 3px;
-}
-.logosfooter img{
-  width: 100px;
-  height: 100px;
-}
-.datos{
-  font-size: 10px;
-}
-.cards{
-width: 100%;
-height: 630px;
-}
-.card{
-  width: 10rem;
-  font-size: 7px;
-  h5{
-    font-size: 10px;
-    text-decoration: underline;
-  }
-}
-.card img{
-  width: 10rem;
-  height: 10rem;
-}
-.indice h1{
-  font-size: 13px;
-}
-.navbar-productos ul{
-  font-size: 8px;
-}
-.galeria-container {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  row-gap: .75rem;
-  margin-top: 15px;
-}
 }
 
 /*# sourceMappingURL=style.css.map */
