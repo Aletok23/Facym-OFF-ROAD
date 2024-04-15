@@ -1,0 +1,29 @@
+/* FOOTER INICIO */
+footer {
+    width: 100%;
+    background-color: #1E1E1E;
+    color: aliceblue;
+    border: solid grey 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logosfooter img {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+  }
+  
+  .datos ul li::marker {
+    color: aqua;
+  }
+  
+  .datos {
+    padding-top: 15px;
+  }
+  
+  .datos ur li::marker {
+    color: #2889AA;
+  }
+  
+  /* FOOTER FINAL */
