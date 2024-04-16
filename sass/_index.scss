@@ -1,5 +1,3 @@
-@import "_generales";
-/* CARROUSEL INICIO */
 .carousel {
   width: 100%;
   height: 750px;
@@ -10,15 +8,16 @@
   height: 750px;
   border: grey solid 3px;
 }
-
+.carousel h5{
+  background-color: #1e1e1e;
+}
 .carousel p {
   font-size: 38px;
   text-align: center;
   color: aliceblue;
 }
 .buttons{
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+position: relative;
+top: 250px;
 }
 /*  CARROUSEL FINAL */
