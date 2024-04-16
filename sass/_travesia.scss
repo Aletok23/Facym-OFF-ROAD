@@ -1,0 +1,30 @@
+/* INICIO MODIFICACIONES GENERALES DE TRAVESIA */
+.travesias {
+    display: flex;
+    height: 450px;
+    border-top: #ffffff solid 3px;
+    border-bottom: #ffffff solid 3px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .travesias img {
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+  }
+  
+  .sub-destinos {
+    color: aliceblue;
+    display: inline-block;
+  }
+  
+  .destinos{
+    font-size: 35px;
+    color: aliceblue;
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* FIN DE PAGINA TRAVESIA Y MODIFICACIONES GENERALES */
