@@ -7,10 +7,20 @@
     justify-content: space-around;
     align-items: center;
   }
+  .travesias-list h6{
+    font-size: 25px;
+  }
+  .travesias-list{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .travesias-list ul li::marker{
   
+  }
   .travesias img {
-    width: 400px;
-    height: 200px;
+    width: 700px;
+    height: 400px;
     justify-content: center;
   }
   

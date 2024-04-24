@@ -15,27 +15,31 @@ footer {
   width: 100%;
   background-color: #1E1E1E;
   color: aliceblue;
-  border: solid grey 3px;
+  border-bottom: solid grey 3px;
+  border-left: solid grey 3px;
+  border-right: solid grey 3px;
   display: flex;
   justify-content: space-between;
-}
+} 
+.datos-footer{
+  width: 350px;
+  height: 150px;
+justify-content: center;
+align-items: center;
+text-align: center;
 
+}
+footer ul{
+  font-size: 25px;
+}
+.redes-footer img{
+  width: 35px;
+  height: 35px;
+}
 .logosfooter img {
   width: 150px;
   height: 150px;
   padding: 15px;
-}
-
-.datos ul li::marker {
-  color: aqua;
-}
-
-.datos {
-  padding-top: 15px;
-}
-
-.datos ur li::marker {
-  color: #2889AA;
 }
 /* FOOTER FINAL */
 /* HEADER INICIO */
@@ -52,7 +56,6 @@ header {
 header img {
   width: 235px;
   height: 100px;
-  background-color: aliceblue;
 }
 
 nav ul {
@@ -72,19 +75,9 @@ li {
 nav ul li a:hover {
   color: aqua;
 }
-
-.datosfacym {
-  color: aliceblue;
-  background-color: #2889AA;
-  display: flex;
-  justify-content: space-evenly;
-  border: black solid 1px;
-  height: 25px;
-}
 /* HEADER FINAL*/
 .indice h1 {
   text-align: center;
-  color:#1E1E1E;
-  background-color: aliceblue;
-  border: black solid 2px;
+  color: white;
+  background-color: #2889AA;
 }
