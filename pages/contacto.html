@@ -1,74 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../styles/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contactanos...">
-    <meta name="keywords" content="Accesorios Off Road,Cadenas para nieve,Cadenas Para Hielo,Travesias,4x4,FACYM,Camionetas">
-    <meta name="author" content="Alejo Tokmayier">
-    <meta name="copyright" content="FACYMSRL">
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactanos...">
+  <meta name="keywords"
+    content="Accesorios Off Road,Cadenas para nieve,Cadenas Para Hielo,Travesias,4x4,FACYM,Camionetas">
+  <meta name="author" content="Alejo Tokmayier">
+  <meta name="copyright" content="FACYMSRL">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Contacto</title>
 </head>
 
 <body>
-    <header id="logo">
-        <img src="../img/logo facym final.png" alt="">
-        <nav>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../pages/cadenas.html">CADENAS</a></li>
-                <li><a href="../pages/productos.html">PRODUCTOS</a></li>
-                <li><a href="../pages/travesias.html">TRAVESIAS</a></li>
-                <li><a href="../pages/contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="indice">
-        <h1>CONTACTO</h1>
+  <header id="logo">
+    <img src="../img/logo facym final.png" alt="">
+    <nav>
+      <ul>
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="../pages/cadenas.html">CADENAS</a></li>
+        <li><a href="../pages/productos.html">PRODUCTOS</a></li>
+        <li><a href="../pages/travesias.html">TRAVESIAS</a></li>
+        <li><a href="../pages/contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="indice">
+      <h1>CONTACTO</h1>
     </div>
-        <section class="contacto-check">
-            <h3>CONTACTANOS</h3>
-            <div class="registro">
-                <label for="floatingInput">Correo:</label>
-                <input type="email adress" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <section class="contacto">
+      <div class="check-out">
+        <h6>Contactanos</h6>
+        <form class="row g-3">
+          <div class="label">
+            <label for="inputEmail4" class="form-label">Correo:</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="label">
+            <label for="inputPassword4" class="form-label">Nombre:</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="label">
+            <label for="inputAddress" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="inputAddress">
+          </div>
+          <div class="label">
+            <label for="inputAddress2" class="form-label">Celular:</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="(+54)">
+          </div>
+          <div class="label">
+            <label for="inputCity" class="form-label">Pais:</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="label">
+            <label for="inputState" class="form-label">Ciudad:</label>
+            <select id="inputState" class="form-select">
+              <option selected>Buenos Aires</option>
+              <option>Ciudad Autonoma De Buenos Aires</option>
+              <option>Chaco</option>
+              <option>Chubut</option>
+              <option>Cordoba</option>
+              <option>Corrientes</option>
+              <option>Enetre Rios</option>
+              <option>Formosa</option>
+              <option>Jujuy</option>
+              <option>La Pampa</option>
+              <option>La Rioja</option>
+              <option>Mendoza</option>
+              <option>Misiones</option>
+              <option>Neuquen</option>
+              <option>Rio Negro</option>
+              <option>Salta</option>
+              <option>San Juan</option>
+              <option>San Luis</option>
+              <option>Santa Cruz</option>
+              <option>Santa Fe</option>
+              <option>Santiago Del Estero</option>
+              <option>Tierra Del Fuego,Antartida E islas Del Atlantico Sur</option>
+              <option>Tucuman</option>
+            </select>
+          </div>
+          <div class="label">
+            <label for="inputZip" class="form-label">Cp:</label>
+            <input type="text" class="form-control" id="inputcp">
+          </div>
+          <div class="label">
+            <label for="floatingTextarea">Mensaje:</label>
+            <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea"></textarea>
+          </div>
+          <div class="label">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">Contactenme Por Mail</label>
             </div>
-            <div class="registro2">
-                <label for="floatingPassword">Nombre:</label>
-                <input type="nombre" class="form-control" id="floatingNombre" placeholder="nombre">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Contactenme Por Telefono
+              </label>
             </div>
-            <div class="registro3">
-                <label for="floatingTextarea2">Mensaje:</label>
-                <textarea class="form-control" placeholder="mensaje" id="floatingTextarea2" style="height: 25px"></textarea>
-              </div>
-              <div>
-              <button type="button" class="btn btn-primary btn-lg">Enviar Ahora</button>
+            <div class="button">
+              <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
-<div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8841344333086!2d-58.48829322452173!3d-34.65762896034688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc96d536f721f%3A0x2bc6b338852c03c7!2sCorval%C3%A1n%202119%2C%20C1440DJJ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1711424670599!5m2!1ses!2sar" width="600" height="399" style="border-right:solid #2889AA  5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-<div class="redes">
-<a href="https://www.whatsapp.com/?lang=es_LA"><img src="../assets/travesias/whatsapp.svg" alt=""></a>
-<a href="https://www.instagram.com/"><img src="../assets/travesias/instagram.svg" alt=""></a>
-<a href="https://www.facebook.com/?locale=es_LA"><img src="../assets/travesias/facebook.svg" alt=""></a>
-</div>
-    </main>
-    <footer>
-        <section class="datos">
-            <ur>
-                <li>Ayuda</li>
-                <li>Contacto</li>
-                <li>Certificados</li>
-                <li>Garantias</li>
-            </ur>
-        </section>
-        <section class="logosfooter">
-            <img src="../assets/LOGO CADENAS FACYM FABRICA.png" alt="">
-            <img src="../assets/DATA FISCAL.jpg" alt="">
-        </section>
-    </footer>
+        </form>
+      </div>
+      </div>
+      </form>
+      </div>
+      <section class="mapa-facym">
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.8841344333086!2d-58.48829322452173!3d-34.65762896034688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc96d536f721f%3A0x2bc6b338852c03c7!2sCorval%C3%A1n%202119%2C%20C1440DJJ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1711424670599!5m2!1ses!2sar"
+            style="border-right:solid #2889AA  5px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <div class="datos-footer">
+      <section class="datos">
+        <ul>
+          <li>Ventas2@cadenasfacym.com.ar</li>
+          <li>(+54) 1140580000</li>
+          <li>Corvalan 2119 (Mataderos Caba)</li>
+        </ul>
+    </div>
+    </section>
+    <div class="redes-footer">
+      <a href="https://www.whatsapp.com/?lang=es_LA" i class="bi bi-whatsapp"></a>
+      <a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1" i class="bi bi-instagram"></a>
+      <a href="https://www.facebook.com/?locale=es_LA" i class="bi bi-facebook"></a>
+    </div>
+    <section class="logosfooter">
+      <img src="../assets/LOGO CADENAS FACYM FABRICA.png" alt="">
+      <img src="../assets/DATA FISCAL.jpg" alt="">
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+  crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,63 +1,48 @@
  /* INICIO PAGINA DE CONTACTOS */
- h3 {
-    text-align: center;
-    padding-top: 15px;
-    text-decoration: underline double;
-  }
-  
-  .contacto-check {
-    width: 20%;
-    height: 400px;
-    background-color: white;
-    font-size: 20px;
-    padding-left: 15px;
-    border-right: #2889AA solid 7px;
-  }
-  
-  .registro {
-    padding: 15px;
-  }
-  
-  .registro2 {
-    padding: 15px;
-  }
-  
-  .registro3 {
-    padding: 15px;
+  .contacto{
+    width: 100%;
+    height: 1200px;
+    justify-content: space-around;
+    align-items: center;
     display: flex;
+
   }
-  
+  .check-out h6{
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E1E1E;
+  }
+  .check-out{
+    width: 720px;
+    height: 850px;
+    background-color: white;
+    font-size: 15px;
+ color: #1E1E1E;
+    border-right: #2889AA solid 7px;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+  }
+  .form-label{
+    width: 10px;
+  }
+  .form-control{
+    width: 10px;
+  }
+  input{
+    width: 10px;
+  }
   button {
     font-size: 25px;
-    background-color: #1E1E1E;
     color: #ffffff;
-    margin-left: 70px;
-    height: 45px;
-    padding: 5px;
-    position: relative;
-    top: 50px;
+    justify-content: center;
   }
-  
-  .mapa {
-    position: relative;
-    left: 520px;
-    bottom: 251px;
-    height: 150px;
-  }
-  
-  .redes {
-    background-color: #ffffff;
-    position: relative;
-    left: 1170px;
-    bottom: 300px;
-    height: 80px;
-    padding-top: 15px;
-    border-left: #2889AA solid 5px;
-  }
-  
-  .redes img {
-    width: 55px;
-    margin-left: 25px;
-  }
+.mapa iframe{
+  width: 600px;
+  height: 600px;
+}
   
   /* FINAL DE PAGINA DE CONTACTO*/

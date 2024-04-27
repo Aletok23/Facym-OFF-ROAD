@@ -16,11 +16,10 @@ footer {
   width: 100%;
   background-color: #1E1E1E;
   color: aliceblue;
-  border-bottom: solid grey 3px;
-  border-left: solid grey 3px;
-  border-right: solid grey 3px;
+  border: grey solid 3px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .datos-footer {
@@ -28,16 +27,25 @@ footer {
   height: 150px;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  display: flex;
 }
 
 footer ul {
-  font-size: 25px;
+  font-size: 17px;
 }
 
-.redes-footer img {
-  width: 35px;
-  height: 35px;
+.redes-footer {
+  width: 50%;
+  height: 150px;
+  font-size: 40px;
+  justify-content: center;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.redes-footer a {
+  color: aliceblue;
 }
 
 .logosfooter img {
@@ -90,12 +98,12 @@ nav ul li a:hover {
 
 .carousel {
   width: 100%;
-  height: 750px;
+  height: 800px;
 }
 
 .carousel img {
   width: 100%;
-  height: 750px;
+  height: 800px;
   border: grey solid 3px;
 }
 
@@ -116,65 +124,56 @@ nav ul li a:hover {
 
 /*  CARROUSEL FINAL */
 /* INICIO PAGINA DE CONTACTOS */
-h3 {
-  text-align: center;
-  padding-top: 15px;
-  text-decoration: underline double;
-}
-
-.contacto-check {
-  width: 20%;
-  height: 400px;
-  background-color: white;
-  font-size: 20px;
-  padding-left: 15px;
-  border-right: #2889AA solid 7px;
-}
-
-.registro {
-  padding: 15px;
-}
-
-.registro2 {
-  padding: 15px;
-}
-
-.registro3 {
-  padding: 15px;
+.contacto {
+  width: 100%;
+  height: 1200px;
+  justify-content: space-around;
+  align-items: center;
   display: flex;
+}
+
+.check-out h6 {
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  color: #1E1E1E;
+}
+
+.check-out {
+  width: 720px;
+  height: 850px;
+  background-color: white;
+  font-size: 15px;
+  color: #1E1E1E;
+  border-right: #2889AA solid 7px;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+
+.form-label {
+  width: 10px;
+}
+
+.form-control {
+  width: 10px;
+}
+
+input {
+  width: 10px;
 }
 
 button {
   font-size: 25px;
-  background-color: #1E1E1E;
   color: #ffffff;
-  margin-left: 70px;
-  height: 45px;
-  padding: 5px;
-  position: relative;
-  top: 50px;
+  justify-content: center;
 }
 
-.mapa {
-  position: relative;
-  left: 520px;
-  bottom: 251px;
-  height: 150px;
-}
-
-.redes {
-  background-color: #ffffff;
-  position: relative;
-  left: 1170px;
-  bottom: 300px;
-  height: 80px;
-  padding-top: 15px;
-  border-left: #2889AA solid 5px;
-}
-
-.redes img {
-  width: 55px;
-  margin-left: 25px;
+.mapa iframe {
+  width: 600px;
+  height: 600px;
 }
 
 /* FINAL DE PAGINA DE CONTACTO*/
@@ -229,6 +228,10 @@ button {
   font-size: 25px;
 }
 
+.navbar-productos li a {
+  color: #2889AA;
+}
+
 /* FIN DE BARRA DE NAVEGACION DE PRODUCTOS */
 /* INICIO GALERIA DE PRODUCTOS */
 .galeria-container {
@@ -249,11 +252,16 @@ button {
 /* INICIO MODIFICACIONES GENERALES DE TRAVESIA */
 .travesias {
   display: flex;
-  height: 450px;
+  height: 500px;
   border-top: #ffffff solid 3px;
   border-bottom: #ffffff solid 3px;
   justify-content: space-around;
   align-items: center;
+}
+
+.travesias-all {
+  width: 100%;
+  height: 1000px;
 }
 
 .travesias-list h6 {
@@ -274,7 +282,7 @@ button {
 
 .sub-destinos {
   color: aliceblue;
-  display: inline-block;
+  display: inline;
 }
 
 .destinos {
@@ -286,128 +294,6 @@ button {
 }
 
 /* FIN DE PAGINA TRAVESIA Y MODIFICACIONES GENERALES */
-@media (max-width: 1440px) {
-  /* FOOTER INICIO */
-  footer {
-    width: 100%;
-    background-color: #2889AA;
-    color: aliceblue;
-    border: solid grey 3px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .datos-footer {
-    width: 350px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-  .redes-footer img {
-    width: 35px;
-    height: 35px;
-  }
-  .logosfooter img {
-    width: 150px;
-    height: 150px;
-    padding: 15px;
-  }
-  /* FOOTER FINAL */
-  /* HEADER INICIO */
-  header {
-    background-color: #1E1E1E;
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    border: black solid 2px;
-  }
-  header img {
-    width: 235px;
-    height: 100px;
-  }
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  ul li a {
-    color: aliceblue;
-    text-decoration: none;
-  }
-  li {
-    padding: 5px 15px;
-  }
-  nav ul li a:hover {
-    color: aqua;
-  }
-  /* HEADER FINAL*/
-  .indice h1 {
-    text-align: center;
-    color: white;
-    background-color: #2889AA;
-  }
-  .carousel {
-    width: 100%;
-    height: 750px;
-  }
-  .carousel img {
-    width: 100%;
-    height: 750px;
-    border: grey solid 3px;
-  }
-  .carousel h5 {
-    background-color: #1e1e1e;
-  }
-  .carousel p {
-    font-size: 38px;
-    text-align: center;
-    color: aliceblue;
-  }
-  .buttons {
-    position: relative;
-    top: 250px;
-  }
-  /*  CARROUSEL FINAL */
-  .cards {
-    width: 100%;
-    height: 1050px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .card img {
-    width: 34.8rem;
-    height: 25rem;
-    border-bottom: #2889AA solid 8px;
-  }
-  .card {
-    width: 35rem;
-    height: 45rem;
-    justify-content: center;
-    text-align: center;
-  }
-  .card-body {
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .card-body h5 {
-    font-size: 30px;
-    text-decoration: underline;
-    padding: 15px;
-  }
-  .card-body a {
-    text-decoration: none;
-    font-size: 25px;
-    color: red;
-  }
-  .form-floating {
-    justify-content: center;
-    text-align: center;
-    font-size: 20px;
-  }
-}
 @media (max-width: 768px) {
   header {
     display: block;
@@ -445,18 +331,24 @@ button {
     font-size: 15px;
   }
   footer {
-    font-size: 15px;
+    justify-content: space-around;
+  }
+  footer ul {
+    font-size: 10px;
   }
   .logosfooter img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 80px;
+  }
+  .redes-footer a {
+    font-size: 15px;
   }
   h1 {
     font-size: 9px;
   }
   .cards {
     width: 100%;
-    height: 900px;
+    height: 1050px;
   }
   .card img {
     width: 18.9rem;
@@ -465,6 +357,9 @@ button {
   .card {
     width: 19rem;
     height: 19rem;
+  }
+  .card-body a {
+    font-size: 20px;
   }
   .galeria-container {
     justify-items: center;
@@ -479,30 +374,83 @@ button {
     width: 200px;
     height: 200px;
   }
+  /* INICIO MODIFICACIONES GENERALES DE TRAVESIA */
   .travesias {
     display: flex;
-    height: 400px;
+    height: 500px;
     border-top: #ffffff solid 3px;
     border-bottom: #ffffff solid 3px;
     justify-content: space-around;
     align-items: center;
   }
+  .travesias-all {
+    width: 100%;
+    height: 1000px;
+  }
+  .travesias-list h6 {
+    font-size: 20px;
+  }
+  .travesias-list {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .travesias img {
     width: 350px;
-    height: 200px;
+    height: 250px;
     justify-content: center;
   }
   .sub-destinos {
     color: aliceblue;
-    display: inline-block;
+    display: inline;
   }
   .destinos {
-    font-size: 35px;
+    font-size: 15px;
     color: aliceblue;
     text-decoration: underline;
     justify-content: center;
     text-align: center;
   }
+  /* FIN DE PAGINA TRAVESIA Y MODIFICACIONES GENERALES */
+  /* INICIO PAGINA DE CONTACTOS */
+  .contacto {
+    width: 100%;
+    height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  .check-out h6 {
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E1E1E;
+  }
+  .button {
+    padding: 5px;
+  }
+  .check-out {
+    width: 450px;
+    height: 850px;
+    background-color: white;
+    font-size: 15px;
+    color: #1E1E1E;
+    padding-left: 15px;
+    border-right: #2889AA solid 7px;
+    align-items: center;
+  }
+  button {
+    font-size: 25px;
+    background-color: #1E1E1E;
+    color: #ffffff;
+  }
+  .mapa iframe {
+    width: 300px;
+    height: 350px;
+  }
+  /* FINAL DE PAGINA DE CONTACTO*/
 }
 @media (max-width: 425px) {
   header {
@@ -526,6 +474,40 @@ button {
     font-size: 10px;
     padding: 5px;
   }
+  /* FOOTER INICIO */
+  footer {
+    width: 100%;
+    background-color: #1E1E1E;
+    color: aliceblue;
+    border: grey solid 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .datos-footer {
+    width: 350px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  footer ul {
+    font-size: 10px;
+  }
+  .redes-footer {
+    width: 50%;
+    height: 150px;
+    font-size: 15px;
+    display: flex;
+  }
+  .redes-footer a {
+    color: aliceblue;
+  }
+  .logosfooter img {
+    width: 10px;
+    height: 10px;
+  }
+  /* FOOTER FINAL */
   .carousel img {
     width: 100%;
     height: 450px;
@@ -537,53 +519,41 @@ button {
   .carousel p {
     font-size: 20px;
   }
-  .travesia {
-    height: 300px;
-  }
-  .travesia h3 {
-    font-size: 15px;
-  }
-  .travesia h4 {
-    font-size: 15px;
-  }
-  footer {
-    font-size: 10px;
-  }
   .logosfooter img {
     width: 100px;
     height: 100px;
   }
-  h1 {
-    font-size: 5px;
-  }
   .cards {
     width: 100%;
-    height: 900px;
+    height: 750px;
   }
   .card-body {
-    font-size: 7px;
+    font-size: 12px;
     justify-content: center;
     text-align: center;
     align-items: center;
   }
   .card-body h5 {
-    font-size: 8px;
+    font-size: 10px;
   }
   .card-body a {
-    font-size: 5px;
+    font-size: 6px;
   }
   .card img {
-    width: 8rem;
-    height: 8rem;
+    width: 11.9rem;
+    height: 9rem;
+  }
+  .form-floating {
+    font-size: 10px;
   }
   .card {
-    width: 8rem;
+    width: 12rem;
     height: 19rem;
-    font-size: 10px;
+    font-size: 5px;
   }
   .navbar-productos ul {
     justify-content: center;
-    font-size: 8px;
+    font-size: 9px;
   }
   .galeria-container {
     justify-items: center;
@@ -600,28 +570,63 @@ button {
   }
   .travesias {
     display: flex;
-    height: 400px;
     border-top: #ffffff solid 3px;
     border-bottom: #ffffff solid 3px;
     justify-content: space-around;
     align-items: center;
   }
   .travesias img {
-    width: 350px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     justify-content: center;
   }
   .sub-destinos {
     color: aliceblue;
     display: inline-block;
+    font-size: 10px;
   }
-  .destinos {
-    font-size: 35px;
+  .destinos h6 {
+    font-size: 15px;
     color: aliceblue;
     text-decoration: underline;
     justify-content: center;
     text-align: center;
   }
+  /* INICIO PAGINA DE CONTACTOS */
+  .contacto {
+    width: 100%;
+    height: 900px;
+    align-items: center;
+    display: inline-block;
+  }
+  .check-out h6 {
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E1E1E;
+    padding: 5px;
+  }
+  .check-out {
+    width: 100%;
+    height: 850px;
+    background-color: white;
+    font-size: 15px;
+    color: #1E1E1E;
+    border-right: #2889AA solid 5px;
+    align-items: center;
+  }
+  button {
+    font-size: 25px;
+    background-color: #1E1E1E;
+    color: #ffffff;
+  }
+  .mapa iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /* FINAL DE PAGINA DE CONTACTO*/
 }
 /* INICIO DE PAGINA PRODUCTOS */
 /* BARRA DE NAVEGACION DE PRODUCTOS INICIO */

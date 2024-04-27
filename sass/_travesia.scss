@@ -1,11 +1,15 @@
 /* INICIO MODIFICACIONES GENERALES DE TRAVESIA */
 .travesias {
     display: flex;
-    height: 450px;
+    height: 500px;
     border-top: #ffffff solid 3px;
     border-bottom: #ffffff solid 3px;
     justify-content: space-around;
     align-items: center;
+  }
+.travesias-all{
+width: 100%;
+height: 1000px;
   }
   .travesias-list h6{
     font-size: 25px;
@@ -15,9 +19,6 @@
     align-items: center;
     text-align: center;
   }
-  .travesias-list ul li::marker{
-  
-  }
   .travesias img {
     width: 700px;
     height: 400px;
@@ -26,7 +27,7 @@
   
   .sub-destinos {
     color: aliceblue;
-    display: inline-block;
+    display: inline;
   }
   
   .destinos{
