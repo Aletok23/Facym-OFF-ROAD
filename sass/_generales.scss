@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
   }
-  
   body {
     font-family: "Montserrat", sans-serif;
   }
@@ -16,9 +15,7 @@ footer {
   background-color: #1E1E1E;
   color: aliceblue;
   border: grey solid 3px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@include flex;
 } 
 .datos-footer{
   width: 350px;

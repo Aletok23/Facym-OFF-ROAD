@@ -151,6 +151,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   padding: 1px;
+  border-radius: 5px;
 }
 
 .form-label {
@@ -220,6 +221,7 @@ button {
   justify-content: center;
   text-align: center;
   font-size: 20px;
+  background-color: white;
 }
 
 /* BARRA DE NAVEGACION DE PRODUCTOS INICIO */
@@ -281,13 +283,13 @@ button {
 }
 
 .sub-destinos {
-  color: aliceblue;
+  color: white;
   display: inline;
 }
 
 .destinos {
   font-size: 35px;
-  color: aliceblue;
+  color: rgb(83, 158, 181);
   text-decoration: underline;
   justify-content: center;
   text-align: center;
@@ -628,9 +630,5 @@ button {
   }
   /* FINAL DE PAGINA DE CONTACTO*/
 }
-/* INICIO DE PAGINA PRODUCTOS */
-/* BARRA DE NAVEGACION DE PRODUCTOS INICIO */
-/* INICIO MODIFICACIONES GENERALES DE TRAVESIA */
-/* FINAL DE PAGINA DE CONTACTO*/
 
 /*# sourceMappingURL=style.css.map */

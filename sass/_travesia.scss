@@ -1,4 +1,5 @@
 /* INICIO MODIFICACIONES GENERALES DE TRAVESIA */
+$color-fuente: rgb(83, 158, 181);
 .travesias {
     display: flex;
     height: 500px;
@@ -26,13 +27,13 @@ height: 1000px;
   }
   
   .sub-destinos {
-    color: aliceblue;
+    color: white;
     display: inline;
   }
   
   .destinos{
     font-size: 35px;
-    color: aliceblue;
+    color: $color-fuente;
     text-decoration: underline;
     justify-content: center;
     text-align: center;
